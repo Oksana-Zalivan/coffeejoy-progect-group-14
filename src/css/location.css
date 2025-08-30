@@ -1,0 +1,97 @@
+h3 {
+    margin: 0;
+}
+
+a {
+    color: #0b0803;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+}
+
+.location {
+}
+
+.container {
+}
+
+.up-title {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contacts-list-item {
+}
+
+.contact-type-icon {
+    margin-bottom: 16px;
+}
+
+.contact-type {
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+}
+
+.contact-link {
+    line-height: 1.5;
+}
+
+.street-name {
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.get-directions-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 0;
+    margin-bottom: 32px;
+    width: 138px;
+    height: 24px;
+   
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.get-directions-link {
+    text-decoration: none;
+}
+
+.right-arrow-icon {
+}
+
+iframe{
+    border-radius: 40px;
+    width: 288px;
+    height: 307px;
+}
