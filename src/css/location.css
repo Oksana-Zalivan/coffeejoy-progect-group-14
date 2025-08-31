@@ -8,12 +8,6 @@ a {
     cursor: pointer;
 }
 
-.location {
-}
-
-.container {
-}
-
 .up-title {
     margin-bottom: 16px;
     font-weight: 600;
@@ -40,9 +34,6 @@ a {
     display: flex;
     flex-direction: column;
     gap: 40px;
-}
-
-.contacts-list-item {
 }
 
 .contact-type-icon {
@@ -76,9 +67,6 @@ a {
 
 .get-directions-link {
     text-decoration: none;
-}
-
-.right-arrow-icon {
 }
 
 iframe{
