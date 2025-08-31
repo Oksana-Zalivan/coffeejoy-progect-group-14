@@ -1,3 +1,10 @@
+.quality-block {
+    max-width: 768px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 .quality-title {
     font-weight: 600;
     font-size: 16px;
@@ -48,6 +55,7 @@
     text-align: center;
     margin-top: 0;
     margin-bottom: 8px;
+    max-width: 284px;
 }
 
 .quality-img-text {
@@ -59,14 +67,20 @@
 }
 
 @media screen and (min-width: 768px) {
-    .quality-text {
-        margin-top: 24px;
+    .quality-block {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .quality-subtitle {
+        max-width: 452px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .quality-list {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 24px;
     }
 
     .quality-item {
@@ -85,12 +99,15 @@
 
 
 @media screen and (min-width: 1440px) {
-    .quality-block {
-        width: 768px;
-        margin: 0 auto;
+
+    .quality-img-title {
+        max-width: 421px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .quality-subtitle {
+        max-width: 768px;
         font-size: 48px;
     }
 
