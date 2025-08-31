@@ -21,7 +21,7 @@ a {
     line-height: 1.5;
 }
 
-.title {
+.title-location {
     font-weight: 400;
     font-size: 36px;
     line-height: 1.2;
@@ -29,7 +29,7 @@ a {
     margin-bottom: 24px;
 }
 
-.subtitle {
+.subtitle-location {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
