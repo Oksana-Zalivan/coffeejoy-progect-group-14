@@ -1,8 +1,6 @@
 .quality-block {
-    max-width: 768px;
+    max-width: 288px;
     margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
 }
 
 .quality-title {
@@ -68,8 +66,7 @@
 
 @media screen and (min-width: 768px) {
     .quality-block {
-        padding-left: 0;
-        padding-right: 0;
+        max-width: 704px;
     }
 
     .quality-subtitle {
@@ -87,6 +84,10 @@
         width: calc((100% - 24px) / 2);
     }
 
+    .quality-list .quality-item:first-child .quality-img-text {
+        max-width: 294px;
+    }
+
     .quality-item:last-child {
         width: 100%;
     }
@@ -99,6 +100,9 @@
 
 
 @media screen and (min-width: 1440px) {
+    .quality-block {
+        max-width: 768px;
+    }
 
     .quality-img-title {
         max-width: 421px;
@@ -122,5 +126,9 @@
 
     .quality-item:last-child {
         width: calc((100% - 48px) / 3);
+    }
+
+    .quality-list .quality-item:first-child .quality-img-text {
+        max-width: none;
     }
 }
