@@ -1,0 +1,43 @@
+.nav-list-header {
+    display: none;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header > nav {
+    display: flex;
+    justify-content: space-between;
+    min-width: 320px;
+    padding: 18px 16px;
+}
+
+.logo-header {
+    width: 84px;
+    height: 36px;
+    text-align: center;
+}
+
+.open-mobile-menu-header-button {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    background-color: transparent;
+    border-color: transparent;
+    outline: transparent;
+}
+
+@media screen and (min-width: 375px){
+    .content-header {
+        display: flex;
+        justify-content: center;
+    }
+    .content-header > nav {
+        max-width: 320px;
+    }
+}
