@@ -5,6 +5,7 @@ body {
 }
 
 h1,
-h2 {
-  font-family: "Aboreto", system-ui;
+h2,
+.contact-type {
+  font-family: "Aboreto", sans-serif;
 }
