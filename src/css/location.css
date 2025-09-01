@@ -1,0 +1,118 @@
+h3 {
+    margin: 0;
+}
+
+a {
+    color: #0b0803;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+}
+
+.location-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.up-title {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.title-location {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+}
+
+.subtitle-location {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact-type-icon {
+    margin-bottom: 16px;
+}
+
+.contact-type {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+}
+
+.contact-link {
+    line-height: 1.5;
+}
+
+.street-name {
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.get-directions-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.get-directions-link {
+    text-decoration: none;
+}
+
+iframe {
+    border-radius: 40px;
+    width: 288px;
+    height: 307px;
+}
+
+@media only screen and (min-width: 768px) {
+    .contacts-list {
+        flex-direction: row;
+    }
+
+    .contacts-list-item {
+        min-width: 208px;
+    }
+
+    iframe {
+        width: 704px;
+        height: 377px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .location-container {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .location-box {
+        width: 419px;
+    }
+
+    .contacts-list {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 869px;
+        height: 697px;
+    }
+}
