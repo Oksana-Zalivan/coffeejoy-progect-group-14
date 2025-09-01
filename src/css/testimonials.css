@@ -1,0 +1,32 @@
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.testimonials-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+}
+
+.feedback-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.feedback-list-item {
+    background-color: #c29d84;
+    width: 288px;
+    min-width: 265px;
+    border: 1px solid rgba(11, 8, 3, 0.15);
+    border-radius: 32px;
+    padding: 32px;
+}
+
+ .star-icons-list {
+    display: flex;
+    gap: 4px;
+ }
