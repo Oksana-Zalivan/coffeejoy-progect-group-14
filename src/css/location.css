@@ -8,6 +8,14 @@ a {
     cursor: pointer;
 }
 
+.location-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+
 .up-title {
     margin-bottom: 16px;
     font-weight: 600;
@@ -62,15 +70,49 @@ a {
     display: flex;
     align-items: center;
     gap: 16px;
-    margin-bottom: 32px;
 }
 
 .get-directions-link {
     text-decoration: none;
 }
 
-iframe{
+iframe {
     border-radius: 40px;
     width: 288px;
     height: 307px;
+}
+
+@media only screen and (min-width: 768px) {
+    .contacts-list {
+        flex-direction: row;
+    }
+
+    .contacts-list-item {
+        min-width: 208px;
+    }
+
+    iframe {
+        width: 704px;
+        height: 377px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .location-container {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .location-box {
+        width: 419px;
+    }
+
+    .contacts-list {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 869px;
+        height: 697px;
+    }
 }
