@@ -34,6 +34,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-bottom: 32px;
 }
 
 .contact-type-icon {
@@ -62,15 +63,45 @@ a {
     display: flex;
     align-items: center;
     gap: 16px;
-    margin-bottom: 32px;
 }
 
 .get-directions-link {
     text-decoration: none;
 }
 
-iframe{
+iframe {
     border-radius: 40px;
     width: 288px;
     height: 307px;
+}
+
+@media only screen and (min-width: 768px) {
+    .contacts-list {
+        flex-direction: row;
+    }
+
+    .contacts-list-item {
+        min-width: 208px;
+    }
+
+    iframe {
+        width: 704px;
+        height: 377px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .info-location {
+        width: 419px;
+    }
+    
+    .contacts-list {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 869px;
+        height: 697px;
+        margin-left: 24px;
+    }
 }
