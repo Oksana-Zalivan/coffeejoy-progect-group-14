@@ -1,6 +1,6 @@
 <section>
-  <div class="container-subscribe">
-    <div class="container-form">
+  <div class="container container-subscribe">
+    <div class="form-container">
       <h1 class="subscribe-title">Join Our Coffee Community</h1>
       <p class="subscribe-text">
         Experience the joy of coffee delivered right to your door. Sign up
@@ -27,18 +27,35 @@
         By clicking Get Started, you agree to our Terms and Conditions.
       </p>
     </div>
-    <div class="photo">
-      <img
-        class="images-subscribe"
-        srcset="
-          /img/subscribe/community-desktop-min.jpg    1x,
-          /img/subscribe/community-desktop@2x-min.jpg 2x
-        "
-        src="/img/subscribe/community-desktop-min.jpg"
-        alt="communiti"
-        width="704"
-        height="400"
-      />
+    <div>
+      <picture>
+        <source
+          media="(min-width: 1158px)"
+          srcset="
+            /img/subscribe/community-desktop-min.jpg    1x,
+            /img/subscribe/community-desktop@2x-min.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            /img/subscribe/community-tablet-min.jpg    1x,
+            /img/subscribe/community-tablet@2x-min.jpg 2x
+          "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ../img/subscribe/community-mobile-min.jpg  1x,
+            /img/subscribe/community-mobile@2x-min.jpg 2x
+          "
+        />
+        <img
+          class="images-subscribe"
+          src="/img/subscribe/community-desktop-min.jpg"
+          alt="communiti"
+        />
+      </picture>
     </div>
   </div>
 </section>

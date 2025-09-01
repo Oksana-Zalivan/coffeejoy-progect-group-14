@@ -9,7 +9,6 @@
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: -0.01em;
-    color: #0b0803;
     padding-bottom: 24px;
 }
 
@@ -17,7 +16,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
-    color: #0b0803;
     padding-bottom: 32px;
 }
 
@@ -85,14 +83,9 @@
 .consent{
     font-size: 12px;
     line-height: 1.5;
-    color: #0b0803;
     padding-bottom: 32px;
 }
 
-.photo{
-    position: relative;
-    overflow: hidden;
-}
 
 .images-subscribe{
     border-radius: 40px;
@@ -128,7 +121,7 @@
 }
 
 @media screen and (min-width: 1158px){
-.container-subscribe {
+.container-subscribe{
     display: flex;
     padding: 64px;
     max-width: 1440px;
@@ -141,5 +134,11 @@
 .input-subscribe {
     width: 339px;
 }
-
+.images-subscribe {
+    width: 640px;
+}
+.form-container{
+    width: 640px;
+    padding-top: 62px;
+}
 }
