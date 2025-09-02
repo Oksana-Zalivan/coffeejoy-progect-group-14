@@ -8,7 +8,7 @@
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    max-width: 768px;
     padding-right: 32px;
     padding-left: 32px;
   }
@@ -16,7 +16,7 @@
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1400px) {
   .container {
-    min-width: 1400px;
+    max-width: 1400px;
     padding-right: 64px;
     padding-left: 64px;
   }
