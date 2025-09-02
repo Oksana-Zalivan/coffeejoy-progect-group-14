@@ -16,7 +16,7 @@
     line-height: 1.2;
     letter-spacing: -0.01em;
     text-align: center;
-    color: var(--color-scheme-1-text);
+    color: #0b0803;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -28,7 +28,7 @@
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
-    color: var(--color-scheme-1-text);
+    color: #0b0803;
     display: flex;
     flex-direction: row;
     margin-bottom: 32px;
@@ -37,9 +37,10 @@
 }
 
 .img-container {
-    display: inline-block;
+    display: block;
     justify-content: space-between;
     align-items: flex-start;
+    width: 100%;
 }
 
 .gallery-list-left {
@@ -132,7 +133,7 @@
 
     .img-container {
         display: flex;
-        justify-content: center;
+        align-items: flex-start;
         row-gap: 32px;
         column-gap: 32px;
         margin-left: auto;
