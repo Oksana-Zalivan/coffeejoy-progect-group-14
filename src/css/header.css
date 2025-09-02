@@ -42,3 +42,25 @@
         max-width: 320px;
     }
 }
+
+@media screen and (min-width: 768px){
+    .button-header {
+        display: none;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .nav-list-header {
+        display: flex;
+        visibility: visible;
+        pointer-events: all;
+        gap: 32px;
+        margin-left: auto;
+    }
+    .content-header {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .content-header > nav {
+        max-width: 768px;
+    }
+}
