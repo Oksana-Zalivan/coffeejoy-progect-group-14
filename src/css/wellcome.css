@@ -73,6 +73,7 @@
 }
 
 .wellcome-img-container {
+    overflow: hidden;
   display: block;
   width: 100%;
   height: auto;
@@ -126,6 +127,8 @@
   }
   .wellcome-img {
     margin-bottom: 32px;
+    overflow: hidden; 
+    width:100%
   }
 }
 
