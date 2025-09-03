@@ -28,8 +28,11 @@
 }
 
 .review-card p {
-  font-size: 14px;
-  margin-bottom: 15px;
+  width: 246px;
+  height: 108px;
+  overflow: hidden;        
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 
 .review-card h4 {
