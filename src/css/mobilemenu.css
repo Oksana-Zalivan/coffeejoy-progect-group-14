@@ -12,14 +12,14 @@ ul {
   list-style: none;
 }
 
-.navbar-footer {
+.mobile-menu{
     opacity: 0;
     width: 320px;
     top: 0;
     left: 0;
 }
 
-.navbar-footer.is-open {
+.mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
