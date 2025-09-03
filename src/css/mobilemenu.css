@@ -1,9 +1,7 @@
 body {
     font-family: "Quicksand", sans-serif;
-    color: #0B0803;
-    background-color: #E0CBB4;
-    width: 320px;
-    height: 448px;
+    min-width: 320px;
+    min-height: 448px;
 }
 
 ul {
@@ -13,10 +11,15 @@ ul {
 }
 
 .mobile-menu{
+    position: fixed;
     opacity: 0;
     width: 320px;
+    max-width: 100%;
+    visibility: hidden;
+    pointer-events: none;
     top: 0;
     left: 0;
+    background-color: #E0CBB4;
 }
 
 .mobile-menu.is-open {
@@ -40,7 +43,6 @@ ul {
 
 .navbar-footer-text {
     text-decoration: none;
-    color: #0B0803;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5em;
@@ -57,5 +59,4 @@ ul {
     justify-content: center;
     text-align: center;
     gap: clamp(16px, 8vh, 40px);
-     
 }
