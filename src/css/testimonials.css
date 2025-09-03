@@ -31,38 +31,37 @@
     padding: 32px;
 }
 
- .star-icons-list {
+.star-icons-list {
     display: flex;
     gap: 4px;
     margin-bottom: 24px;
- }
+}
 
- .feedback-text {
+.feedback-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
- }
-
- .feedback-author {
+}
+.feedback-author {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
- }
+}
 
- .star-icon-outline {
+.star-icon-outline {
     stroke: black;
     fill: transparent;
- }
+}
 
- @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .feedback-list-item {
         justify-content: space-between;
     }
- }
+}
 
- @media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1400px) {
     .testimonials-title {
         font-size: 48px;
         width: 416px;
     }
- }
+}
