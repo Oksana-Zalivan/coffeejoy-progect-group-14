@@ -1,0 +1,64 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    color: #0B0803;
+    min-width: 320px;
+    min-height: 448px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mobile-menu{
+    position: fixed;
+    opacity: 0;
+    width: 320px;
+    max-width: 100%;
+    visibility: hidden;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    background-color: #E0CBB4;
+}
+
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.navbar-header {
+    padding: 18px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-button {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.navbar-footer-text {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0;
+}
+
+.navbar-footer-list {
+    padding-bottom: 57px;
+    max-height: 376px;
+}
+
+.navbar-footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: clamp(16px, 8vh, 40px);
+}
