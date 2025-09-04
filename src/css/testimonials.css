@@ -1,0 +1,34 @@
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.review-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+.review-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.review-card {
+    background-color: #C29D84;
+    width: 288px;
+    min-width: 265px;
+    border: 1px solid rgba(11, 8, 3, 0.15);
+    border-radius: 32px;
+    padding: 32px;
+}
+.stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 24px;
+}
+.icon {
+    fill: none;
+    stroke: #0B0803;;
+}

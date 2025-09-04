@@ -47,5 +47,5 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    gap: clamp(16px, 8vh, 40px);
+    gap: 40px;
 }
