@@ -8,6 +8,10 @@ a {
     cursor: pointer;
 }
 
+.location {
+    padding: 64px 0;
+}
+
 .location-container {
     display: flex;
     align-items: flex-start;

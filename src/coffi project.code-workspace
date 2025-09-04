@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"name": "goit-hw-4",
+			"path": "../../goit-hw-4"
+		},
+		{
+			"name": "goit-hw-5",
+			"path": "../../goit-hw-5"
+		},
+		{
+			"name": "goit-hw-6",
+			"path": "../../goit-hw-6"
+		},
+		{
+			"name": "barbershop.local",
+			"path": "D:/OSPanel/home/barbershop.local"
+		},
+		{
+			"name": "bogdanelo",
+			"path": "../../bogdanelo"
+		},
+		{
+			"path": "../../../../Desktop/firw"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "coffeejoy-progect-group-14"
+	}
+}

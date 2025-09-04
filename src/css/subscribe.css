@@ -1,0 +1,145 @@
+.subscribe {
+    padding: 64px 0;
+}
+
+.form-container{
+    width: 288px;
+    margin-bottom: 32px;
+}
+
+.subscribe-title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+}
+
+.subscribe-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.form-email{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.label-subscribe{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.input-subscribe:hover{
+    border: 1px solid #7f1c1c;
+    color: #7f1c1c;
+}
+
+.input-subscribe{
+    border: 1px solid rgba(11, 8, 3, 0.15);
+    border-radius: 12px;
+    padding: 8px 12px;
+    width: 288px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(11, 8, 3, 0.6);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.button-subscribe{
+    display: flex;
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 288px;
+    height: 44px;
+    box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+    background: #6f4e37;
+    font-size: 16px;
+    line-height: 1.5;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-subscribe:hover,
+.button-subscribe:focus{
+    background: #6f4e37;
+    opacity: 0.5;
+}
+
+.chevrons{
+    padding-left: 12px;
+    fill: #fff;
+}
+
+.consent{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.photo-style{
+    width: 288px;
+    height: 400px;
+}
+
+.images-subscribe{
+    border-radius: 40px;
+}
+
+@media screen and (min-width: 768px){
+.label-subscribe {
+    margin-bottom: 0;
+}
+
+.photo-style{
+    width: 704px;
+    height: 400px;
+}
+
+.input-subscribe{
+    width: 340px;
+    height: 44px;
+}
+
+.button-subscribe{
+    width: 158px;
+    height: 44px;
+    margin-left: 24px;
+}
+
+.form-container{
+    width: 704px;
+}
+}
+
+@media screen and (min-width: 1440px){
+.container-subscribe{
+    display: flex;
+    max-width: 1440px;
+    gap: 32px;
+}
+
+.subscribe-title{
+    font-size: 48px;
+}
+
+.input-subscribe {
+    width: 339px;
+}
+
+.photo-stylee {
+    width: 640px;
+    height: 400px;
+}
+
+.form-container{
+    padding-top: 62px;
+}
+}
