@@ -1,0 +1,48 @@
+.mobile-menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #E0CBB4;
+    height: 377px;
+}
+
+.navbar-button.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.navbar-header {
+    padding: 18px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-button {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.navbar-footer-text {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0;
+}
+
+.navbar-footer-list {
+    padding-bottom: 57px;
+}
+
+.navbar-footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: clamp(16px, 8vh, 40px);
+}
