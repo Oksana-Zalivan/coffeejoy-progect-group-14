@@ -1,3 +1,11 @@
+.quality {
+    padding: 64px 0;
+}
+
+.block {
+    padding: 0 16px;
+}
+
 .quality-block {
     max-width: 288px;
     margin: 0 auto;
