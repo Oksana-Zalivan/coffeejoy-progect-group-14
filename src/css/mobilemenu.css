@@ -1,17 +1,4 @@
-body {
-    font-family: "Quicksand", sans-serif;
-    color: #0B0803;
-    min-width: 320px;
-    min-height: 448px;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.mobile-menu{
+.mobile-menu {
     position: fixed;
     opacity: 0;
     width: 320px;
@@ -24,9 +11,9 @@ ul {
 }
 
 .mobile-menu.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .navbar-header {
