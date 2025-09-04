@@ -1,6 +1,6 @@
 .hero{
     background-repeat: no-repeat;
-    background-image: image-set(url("../img/hero/hero-mobile-min.jpg") 1x, url("../img/hero/hero-mobile@2x-min.jpg") 2x);
+    background-image: image-set(url("/img/hero/hero-mobile-min.jpg") 1x, url("../img/hero/hero-mobile@2x-min.jpg") 2x);
     background-size: cover;
     background-position: center;
     padding: 108px 0;
@@ -8,12 +8,11 @@
 
 @media (min-resolution: 192dpi) {
     .hero {
-        background-image:url("../img/hero/hero-mobile@2x-min.jpg");
+        background-image:url("/img/hero/hero-mobile@2x-min.jpg");
     }
 }
 
 .hero-title{
-    font-family: "Aboreto", sans-serif;
 font-weight: 400;
 font-size: 40px;
 line-height: 120%;
@@ -50,7 +49,7 @@ text-decoration: none;
 
 @media screen and (min-width:768px){
     .hero{
-        background-image: url("../img/hero/hero-tablet-min.jpg") 1x, url("../img/hero/hero-tablet@2x-min.jpg") 2x;
+        background-image: url("/img/hero/hero-tablet-min.jpg") 1x, url("../img/hero/hero-tablet@2x-min.jpg") 2x;
         padding-top: 311px;
         padding-bottom: 311px;
     }
@@ -58,21 +57,21 @@ text-decoration: none;
 
 @media (min-resolution: 192dpi) {
     .hero{
-        background-image:url("../img/hero/hero@2x-min.jpg");
+        background-image:url("/img/hero/hero@2x-min.jpg");
     }
 }
 
 @media screen and (min-width:1440px){
-    .hero-banner{
-        background-image: url("../img/hero/hero-desktop-min.jpg") 1x, url("../img/hero/hero-desktop@2x-min.jpg") 2x;
+    .hero{
+        background-image: url("/img/hero/hero-desktop-min.jpg") 1x, url("../img/hero/hero-desktop@2x-min.jpg") 2x;
         padding-top: 259px;
         padding-bottom: 259px;
         padding-left: 64px;
         padding-right: 816px;
     }
     @media (min-resolution: 192dpi) {
-        .hero-banner {
-            background-image:url("../img/hero/hero-desktop@2x-min.jpg");
+        .hero {
+            background-image:url("/img/hero/hero-desktop@2x-min.jpg");
         }
     }
     
