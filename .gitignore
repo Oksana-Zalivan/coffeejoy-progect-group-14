@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 
+pullrequests.txt
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -23,8 +25,9 @@ dist-ssr
 *.sln
 *.sw?
 
+pull-requests.txt
 
-
+pull-request.txt
 
 
 
