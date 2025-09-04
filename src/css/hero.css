@@ -12,6 +12,10 @@
     }
 }
 
+.hero-content {
+    max-width: 256px;
+}
+
 .hero-title{
 font-weight: 400;
 font-size: 40px;
@@ -27,7 +31,6 @@ font-size: 18px;
 line-height: 150%;
 color: #fff;
 margin-bottom: 32px;
-max-width: 560px;
 }
 
 .hero-button{
@@ -53,6 +56,10 @@ text-decoration: none;
         padding-top: 311px;
         padding-bottom: 311px;
     }
+
+    .hero-content {
+        max-width: 560px;
+    }
 }
 
 @media (min-resolution: 192dpi) {
@@ -66,9 +73,8 @@ text-decoration: none;
         background-image: url("/img/hero/hero-desktop-min.jpg") 1x, url("../img/hero/hero-desktop@2x-min.jpg") 2x;
         padding-top: 259px;
         padding-bottom: 259px;
-        padding-left: 64px;
-        padding-right: 816px;
     }
+
     @media (min-resolution: 192dpi) {
         .hero {
             background-image:url("/img/hero/hero-desktop@2x-min.jpg");
