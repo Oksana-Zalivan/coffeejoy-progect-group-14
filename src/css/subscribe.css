@@ -1,3 +1,7 @@
+.subscribe {
+    padding: 64px 0;
+}
+
 .form-container{
     width: 288px;
 }
@@ -7,25 +11,25 @@
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: -0.01em;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .subscribe-text{
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .form-email{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .label-subscribe{
     display: flex;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .input-subscribe:hover{
@@ -77,7 +81,7 @@
 .consent{
     font-size: 12px;
     line-height: 1.5;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .photo-style{
@@ -91,7 +95,7 @@
 
 @media screen and (min-width: 768px){
 .label-subscribe {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .photo-style{
@@ -115,7 +119,7 @@
 }
 }
 
-@media screen and (min-width: 1158px){
+@media screen and (min-width: 1440px){
 .container-subscribe{
     display: flex;
     max-width: 1440px;

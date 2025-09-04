@@ -1,3 +1,7 @@
+.gallery {
+    padding: 64px 0;
+}
+
 .gallery-description-container {
     display: flex;
     justify-content: center;
