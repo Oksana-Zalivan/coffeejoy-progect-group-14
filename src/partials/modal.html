@@ -1,0 +1,46 @@
+<div class="modal" data-modal>
+  <div class="modal-container">
+    <button class="modal-button-x" data-modal-close>
+      <svg class="close-icon" width="14" height="14">
+        <use href="./img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h2 class="modal-subtitle">Welcome to the world of CoffeeJoy!</h2>
+    <p class="modal-text">
+      Fresh brews, special offers, and cozy updates are coming your way.
+    </p>
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="../img/modal/modal-min.jpg 1x, ../img/modal/modal@2x-min.jpg 2x"
+        width="644"
+        height="374"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="../img/modal/modal-min.jpg 1x, ../img/modal/modal@2x-min.jpg 2x"
+        width="644"
+        height="374"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ../img/modal/modal-mobile-min.jpg    1x,
+          ../img/modal/modal-mobile@2x-min.jpg 2x
+        "
+        width="256"
+        height="200"
+      />
+      <img
+        class="modal-img"
+        src="../img/modal/modal-min.jpg"
+        alt="expert-baristas"
+        width="288"
+        height="164"
+      />
+    </picture>
+    <button class="modal-button-close" type="button" data-modal-close>
+      Close
+    </button>
+  </div>
+</div>
