@@ -24,10 +24,22 @@
 
 .review-card {
     background-color: #C29D84;
-    width: 288px;
+    width: 100%;
     border: 1px solid rgba(11, 8, 3, 0.15);
     border-radius: 32px;
     padding: 32px;
+}
+
+@media (min-width: 768px) {
+    .review-card {
+        width: calc((100% - 24) / 2);
+    }
+}
+
+@media (min-width: 1440px) {
+    .review-card {
+        width: calc((100% - 72) / 4);
+    }
 }
 
 .review-text {
