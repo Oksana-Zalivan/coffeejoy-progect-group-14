@@ -2,6 +2,10 @@
   padding: 64px 0;
 }
 
+.welcome-container {
+  display: flex;
+}
+
 .up-title-wellcome {
   display: block;
   font-weight: 600;
