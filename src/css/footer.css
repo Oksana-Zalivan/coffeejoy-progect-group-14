@@ -1,23 +1,20 @@
 .site-footer{
   background-color: rgba(181, 136, 105, 1);
 }
+
 .footer-container{
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-
 .all-footer-content{
   background-color: rgba(194, 157, 132, 1);
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   padding: 32px 48px;
   border-radius: 35px;
   margin-bottom: 24px;
-
   gap: 32px;
 }
 
@@ -26,13 +23,14 @@
   flex-direction: column;
   gap: 40px;
   justify-content: center;
-
 }
+
 .footer-logo{
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .footer-logo-svg{
   height: 84px;
   fill: rgba(11, 8, 3, 1);
@@ -45,10 +43,12 @@
   justify-content: center;
   gap: 12px;
 }
+
 .footer-social a{
   display: flex;
   align-items: center;
 }
+
 .footer-social-svg{
   width: 32px;
   height: 32px;
@@ -60,18 +60,20 @@
   align-items: center;
   justify-content: center;
 }
+
 .footer-nav ul{
   display: flex;
   flex-direction: row;
   gap: 32px;
-
   flex-direction: column;
 }
+
 .footer-nav li{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .footer-nav a{
   text-decoration: none;
   font-size: 16px;
@@ -81,19 +83,16 @@
   letter-spacing: 0%;
   font-family: "Quicksand", sans-serif;
   font-style: normal;
-
   display: flex;
   justify-content: center;
 }
-
-
-
 
 .footer-bottom{
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .footer-bottom{
   font-size: 14px;
   font-weight: 400;
@@ -110,21 +109,25 @@
   .all-footer-content{
     flex-direction: column;
   }
+
   .footer-nav ul{
   flex-direction: row;
   }
+
   .footer-brand{
     flex-direction: row;
-
   }
+
   .footer-logo-svg{
     height: 35px;
   }
+
   .footer-social-svg{
     width: 20px;
     height: 20px;
   }
 }
+
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1400px) {
   .all-footer-content{
@@ -138,16 +141,19 @@
   .footer-nav{
     justify-content: end;
   }
+
   .footer-nav ul{
   flex-direction: row;
   }
+
   .footer-brand{
     flex-direction: row;
-
   }
+
   .footer-logo-svg{
     height: 35px;
   }
+
   .footer-social-svg{
     width: 20px;
     height: 20px;
