@@ -18,7 +18,7 @@
 
   <title>CoffeeJoy</title>
   <script type="module" crossorigin src="/coffeejoy-progect-group-14/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/coffeejoy-progect-group-14/assets/index-ClKfODB5.css">
+  <link rel="stylesheet" crossorigin href="/coffeejoy-progect-group-14/assets/index-Bo6zXrJU.css">
 </head>
 
 <body>
@@ -139,7 +139,7 @@
 </section>
 
   <section class="quality" id="benefits">
-  <div class="container">
+  <div class="container container-quality">
     <div class="quality-block">
       <p class="quality-title">Quality</p>
       <h2 class="quality-subtitle">Why CoffeeJoy Stands Out from the Rest</h2>
@@ -347,19 +347,17 @@
         today!
       </p>
       <form class="form-email">
-        <label class="label-subscribe">
-          <input
-            class="input-subscribe"
-            type="email"
-            name="user-email"
-            placeholder="Your Email Here"
-            required
-          />
-        </label>
-        <button class="button-subscribe" type="submit" data-modal-open>
+        <div class="inp-form">
+          <label for="user-email"></label>
+          <input class="input-subscribe" id="user-email" type="email" name="user-email" placeholder="Your Email Here"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required />
+          <p class="text-valid">Succes!</p>
+          <p class="text-invalid">Invalid email, try again</p>
+        </div>
+        <button class="button-subscribe" type="submit">
           Subscribe
           <svg class="chevrons" width="24" height="24">
-            <use href="/coffeejoy-progect-group-14/assets/icons-D6LWlj-B.svg#icon-chevrons-right"></use>
+            <use href="/coffeejoy-progect-group-14/assets/icons-D6LWlj-B.svg#icon-subscribe"></use>
           </svg>
         </button>
       </form>
