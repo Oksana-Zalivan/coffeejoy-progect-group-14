@@ -59,6 +59,9 @@ text-decoration: none;
     opacity: 0.5;
 }
 
+.hero-button:focus {
+    background: #6f4e37; }
+
 @media screen and (min-width:768px){
     .hero{
         background-image: url("/img/hero/hero-min.jpg");
