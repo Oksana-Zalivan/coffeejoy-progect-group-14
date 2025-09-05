@@ -32,13 +32,13 @@
 
 @media (min-width: 768px) {
     .review-card {
-        width: calc((100% - 24) / 2);
+        width: calc((100% - 24px) / 2);
     }
 }
 
 @media (min-width: 1440px) {
     .review-card {
-        width: calc((100% - 72) / 4);
+        width: calc((100% - 72px) / 4);
     }
 }
 

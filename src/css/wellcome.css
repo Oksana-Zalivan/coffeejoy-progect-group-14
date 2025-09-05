@@ -1,10 +1,12 @@
 .wellcome {
   padding: 64px 0;
 }
-
-.welcome-container {
+@media (min-width: 768px) {
+  .welcome-container {
   display: flex;
 }
+}
+
 
 .up-title-wellcome {
   display: block;
