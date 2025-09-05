@@ -28,14 +28,10 @@
     margin-bottom: 16px;
 }
 
-.label-subscribe{
+.inp-form {
     display: flex;
+    flex-direction: column;
     margin-bottom: 24px;
-}
-
-.input-subscribe:hover{
-    border: 1px solid #7f1c1c;
-    color: #7f1c1c;
 }
 
 .input-subscribe{
@@ -49,6 +45,45 @@
     line-height: 1.5;
     color: rgba(11, 8, 3, 0.6);
     background-color: rgba(255, 255, 255, 0);
+}
+
+.input-subscribe:hover {
+    border: 1px solid #7F1C1C;
+    color: #7F1C1C;
+}
+
+.input-subscribe::placeholder {
+    color: rgba(11, 8, 3, 0.6);
+}
+
+.input-subscribe:not(:placeholder-shown):invalid {
+    border-color: red;
+}
+
+.input-subscribe:not(:placeholder-shown):valid {
+    border-color: green;
+}
+
+.text-valid,
+.text-invalid {
+    font-size: 12px;
+    display: none;
+}
+
+.text-valid {
+    color: green;
+}
+
+.text-invalid {
+    color: red;
+}
+
+.input-subscribe:not(:placeholder-shown):valid~.text-valid {
+    display: block;
+}
+
+.input-subscribe:not(:placeholder-shown):invalid~.text-invalid {
+    display: block;
 }
 
 .button-subscribe{
